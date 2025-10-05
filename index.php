@@ -1,40 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- link for icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <!-- You need to include Font Awesome CSS -->
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJd44d18zY8nC7eS74tGkF1PZ1/F4e9y7R/eF4Zt6yM5K3T4C1x1O1A1A1A==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    <!-- carousel files -->
-    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" /> -->
-    <!-- links for bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-    <!-- links for css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
-    <!-- font families -->
-    <link href="https://fonts.cdnfonts.com/css/tex-gyre-adventor" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-     <!-- animate css -->
-      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+<?php
+  $home = "active"; 
+  $pageTitle = "Home | Portfolio Website";
+  include_once "head.php";   
+?>
 
-
-
-    <!-- ------- -->
-</head>
 
 <body style="overflow-x: hidden;">
 
@@ -842,79 +812,10 @@
  </div>
 <!-- for last contact -->
  <!-- footer -->
-  <footer class="main-footer rel z-1">
-            <div class="footer-top-wrap bgc-black pt-100 pb-75">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <div class="footer-widget widget_logo box" style="visibility: visible; animation-delay:.2s;">
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/logo.webp" alt="Logo"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-7">
-                            <div class="footer-widget widget_nav_menu box" style="visibility: visible; animation-delay:.4s;">
-                                <h6 class="footer-title">Quick Link</h6>
-                                <ul>
-                                    <li><a href="services.html">Service</a></li>
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="services.html#pricing">Pricing</a></li>
-                                    <li><a href="about.html#faqs">Faqs</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="footer-widget widget_newsletter box" style="visibility: visible; animation-delay:.4s;">
-                                <form action="#">
-                                    <label for="email-address"><i class="far fa-envelope"></i></label>
-                                    <input id="email-address" type="email" placeholder="Email Address" required="">
-                                    <button>Sign Up <i class="fas fa-angle-right"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5">
-                            <div class="footer-widget widget_contact_info box" style="visibility: visible; animation-delay: .6s;">
-                                <h6 class="footer-title">Address</h6>
-                                <ul>
-                                    <li><i class="fas fa-map-marker-alt"></i> 55 Main Street, 2nd block, New York City</li>
-                                    <li><i class="fas fa-envelope"></i> <a href="mailto:support@gmail.com">support@gmail.com</a></li>
-                                    <li><i class="fas fa-phone"></i> <a href="callto:+880(123)45688">+880 (123) 456 88</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom pt-20 pb-5 rpt-25">
-                <div class="container">
-                   <div class="row">
-                       <div class="col-lg-6">
-                            <div class="copyright-text">
-                                <p>Copyright @2023, <a href="index.html">Noxfolio</a> All Rights Reserved</p>
-                            </div>
-                       </div>
-                       <div class="col-lg-6 text-lg-end">
-                           <ul class="footer-bottom-nav">
-                               <li><a href="#">Facebook</a></li>
-                               <li><a href="#">Twitter</a></li>
-                               <li><a href="#">Instagram</a></li>
-                               <li><a href="#">LinkedIn</a></li>
-                           </ul>
-                       </div>
-                   </div>
-                   <!-- Scroll Top Button -->
-                    <a class="scroll-top scroll-to-target" href="#" style="display: inline-block;"><span class="fas fa-angle-double-up"></span></a>
-                </div>
-                <div class="bg-lines background">
-                   <span></span><span></span>
-                   <span></span><span></span>
-                   <span></span><span></span>
-                   <span></span><span></span>
-                   <span></span><span></span>
-                </div>
-            </div>
-        </footer>
 
+ <section>
+<?php include_once "footer.php" ?>
+</section>
 
 
 
