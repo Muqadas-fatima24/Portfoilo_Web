@@ -305,6 +305,6 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     setTimeout(() => {
       document.querySelector('.preloader').style.display = 'none';
-    }, 1300); // 2000ms = 2 seconds
+    }, 1000); // 2000ms = 2 seconds
   });
 
