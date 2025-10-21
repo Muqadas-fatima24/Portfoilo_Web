@@ -150,10 +150,37 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // box2 left
-   document.addEventListener('DOMContentLoaded', () => { 
+//    document.addEventListener('DOMContentLoaded', () => { 
+
+//   const boxes = document.querySelectorAll(".box2");
+
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//           entry.target.classList.add("fadeInLeft");
+//           // Optional: Stop observing once animated
+//           observer.unobserve(entry.target);
+//         }
+//       });
+//     },
+//   );
+
+//   boxes.forEach(box => observer.observe(box));
+
+// });
+document.addEventListener('DOMContentLoaded', () => { 
 
   const boxes = document.querySelectorAll(".box2");
 
+  // 1. Define the options object with the desired threshold
+  const options = {
+    root: null, // Default is the viewport
+    rootMargin: '0px', // No margin around the root
+    threshold: 0.0001 // Triggers when 0.01% of the element is visible
+  };
+
+  // 2. Pass the options object to the IntersectionObserver constructor
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach(entry => {
@@ -164,6 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     },
+    options 
   );
 
   boxes.forEach(box => observer.observe(box));
@@ -305,6 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     setTimeout(() => {
       document.querySelector('.preloader').style.display = 'none';
-    }, 1000); // 2000ms = 2 seconds
+       document.querySelector('.preloader').style.transition = '.3s';
+    }, 900); // 2000ms = 2 seconds
   });
 

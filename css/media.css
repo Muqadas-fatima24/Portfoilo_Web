@@ -535,10 +535,33 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+    /* .logo-outer .logo img{
+
+    max-width: 100%;
+} */
+
 }
 @media only screen and (max-width: 375px) {
     .project-content {
         padding-left: 0;
         padding-right: 0;
     }
+        .big-icon {
+        width: 200px;
+        height: 200px;
+        font-size: 100px;
+        line-height: 200px;
+    }
+}
+@media only screen and (max-width: 390px) {
+
+    .logo a img {
+    width:335px;
+}
+}
+@media only screen and (max-width: 330px) {
+
+    .logo a img {
+    width:350px;
+}
 }
