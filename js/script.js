@@ -90,10 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-// wow animation
-
-// Get the header element
-   
+// Get the header element  
 document.addEventListener('DOMContentLoaded', () => { 
     const scrollTriggerPoint = 100; 
     const header = document.querySelector('.main-header'); // ✅ Get the header element
@@ -109,94 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleScroll);
 });
 
-// box
-document.addEventListener("DOMContentLoaded", () => {
-  const boxes = document.querySelectorAll(".box");
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("fadeInUp");
-          // Optional: Stop observing once animated
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-  );
-
-  boxes.forEach(box => observer.observe(box));
-});
-
-// box1 right
-   document.addEventListener('DOMContentLoaded', () => { 
-
-  const boxes = document.querySelectorAll(".box1");
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("fadeInRight");
-          // Optional: Stop observing once animated
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-  );
-
-  boxes.forEach(box => observer.observe(box));
-
-});
-
-// box2 left
-//    document.addEventListener('DOMContentLoaded', () => { 
-
-//   const boxes = document.querySelectorAll(".box2");
-
-//   const observer = new IntersectionObserver(
-//     (entries) => {
-//       entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//           entry.target.classList.add("fadeInLeft");
-//           // Optional: Stop observing once animated
-//           observer.unobserve(entry.target);
-//         }
-//       });
-//     },
-//   );
-
-//   boxes.forEach(box => observer.observe(box));
-
-// });
-document.addEventListener('DOMContentLoaded', () => { 
-
-  const boxes = document.querySelectorAll(".box2");
-
-  // 1. Define the options object with the desired threshold
-  const options = {
-    root: null, // Default is the viewport
-    rootMargin: '0px', // No margin around the root
-    threshold: 0.0001 // Triggers when 0.01% of the element is visible
-  };
-
-  // 2. Pass the options object to the IntersectionObserver constructor
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("fadeInLeft");
-          // Optional: Stop observing once animated
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    options 
-  );
-
-  boxes.forEach(box => observer.observe(box));
-
-});
 // self practice
 // document.addEventListener('DOMContentLoaded', () => { 
 //   let allInput = document.querySelectorAll(".form-group .form-control"); 
@@ -227,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //     })
 
 // });
-
+// form
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Get the form and all relevant fields
     const form = document.getElementById('contactForm');
@@ -328,7 +237,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
   // Wait until the page finishes loading
   window.addEventListener('load', () => {
     setTimeout(() => {
@@ -337,3 +245,83 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 900); // 2000ms = 2 seconds
   });
 
+// box
+  // ................
+// // box
+document.addEventListener("DOMContentLoaded", () => {
+  const boxes = document.querySelectorAll(".box");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fadeInUp");
+          // Optional: Stop observing once animated
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+  );
+
+  boxes.forEach(box => observer.observe(box));
+});
+// box1 right
+document.addEventListener('DOMContentLoaded', () => { 
+
+  const boxes = document.querySelectorAll(".box1");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fadeInRight");
+          // Optional: Stop observing once animated
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+  );
+
+  boxes.forEach(box => observer.observe(box));
+
+});
+// box2 left
+   document.addEventListener('DOMContentLoaded', () => { 
+
+  const boxes = document.querySelectorAll(".box2");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fadeInLeft");
+          // Optional: Stop observing once animated
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+  );
+
+  boxes.forEach(box => observer.observe(box));
+
+});
+// fadeIn
+document.addEventListener('DOMContentLoaded', () => { 
+
+  const boxes = document.querySelectorAll(".pati-my");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fadeIn");
+          // Optional: Stop observing once animated
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+  );
+
+  boxes.forEach(box => observer.observe(box));
+
+});
