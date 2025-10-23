@@ -1,11 +1,11 @@
-  <footer class="main-footer rel z-1">
+ <footer class="main-footer rel z-1">
             <div class="footer-top-wrap bgc-black pt-100 pb-75">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2 col-md-12">
                             <div class="footer-widget widget_logo box" style="visibility: visible; animation-delay:.2s;">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/logo.webp" alt="Logo"></a>
+                                    <a href="index.php"><img src="assets/logo.webp" alt="Logo"></a>
                                 </div>
                             </div>
                         </div>
@@ -46,15 +46,15 @@
                    <div class="row">
                        <div class="col-lg-6">
                             <div class="copyright-text">
-                                <p>Copyright @2023, <a href="index.html">Noxfolio</a> All Rights Reserved</p>
+                                <p>Copyright @2025, <a href="index.html">Muqadescodes</a> All Rights Reserved</p>
                             </div>
                        </div>
                        <div class="col-lg-6 text-lg-end">
                            <ul class="footer-bottom-nav">
-                               <li><a href="#">Facebook</a></li>
-                               <li><a href="#">Twitter</a></li>
-                               <li><a href="#">Instagram</a></li>
-                               <li><a href="#">LinkedIn</a></li>
+                               <li><a href="https://www.facebook.com/profile.php?id=61582365151043">Facebook</a></li>
+                               <li><a href="https://x.com/muqades532003">Twitter</a></li>
+                               <li><a href="https://www.instagram.com/muqadescodes">Instagram</a></li>
+                               <li><a href="https://www.linkedin.com/in/muqadescodes">LinkedIn</a></li>
                            </ul>
                        </div>
                    </div>
