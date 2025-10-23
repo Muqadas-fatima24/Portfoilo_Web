@@ -17,7 +17,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <!-- link for icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <!-- You need to include Font Awesome CSS -->
@@ -216,7 +216,7 @@
                             <p>We denounce with righteous indignation dislike demoralized by the charms of pleasure</p>
                             <div class="hero-btns">
                                 <a href="#contact" class="theme-btn">Hire Me <i class="fas fa-angle-right"></i></a>
-                                <a href="assets/my_resume.pdf" download class="read-more">Download Resume <i class="fas fa-angle-right"></i></a>
+                                <a href="assets/CV.pdf" download class="read-more">Download Resume <i class="fas fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -591,14 +591,16 @@
  <!-- skil part2 -->
   <section class="projects-area pt-130 rpt-100 pb-100 rpb-70 rel z-1">
             <div class="container">
+                <!-- 1 -->
                 <div class="row justify-content-center">
                     <div class="col-xl-12">
                         <div class="section-title text-center mb-60 box" style="visibility: visible; animation-delay: .2s;">
                             <span class="sub-title mb-15">Latest Works</span>
-                            <h2>Explore My Popular <span>Projects</span></h2>
+                            <h2>Explore My <span>Projects</span></h2>
                         </div>
                     </div>
                 </div>
+                <!-- 2 -->
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image box2" style="visibility: visible; animation-delay: .2s;">
@@ -608,13 +610,14 @@
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="project-content box1" style="visibility: visible; animation-delay: .2s;">
-                            <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Mobile Application Design</a></h2>
-                            <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <span class="sub-title">Website Design</span>
+                            <h2><a href="https://muqadescodes.com/Dimension-digital">Dimension Digital Website Clone</a></h2>
+                            <p>Recreated the Dimension Digital website with a focus on responsive design and clean UI.</p>
+                            <a href="https://muqadescodes.com/Dimension-digital" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
+                <!-- 3 -->
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image box1" style="visibility: visible; animation-delay: .2s;">
@@ -623,13 +626,14 @@
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
                         <div class="project-content box1" style="visibility: visible; animation-delay: .2s;">
-                            <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Website Makeup Design</a></h2>
-                            <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <span class="sub-title">Website Design</span>
+                            <h2><a href="https://muqadescodes.com/Dr-Lusia">Dr. Lusia Website Clone</a></h2>
+                            <p>Developed a responsive Dr. Lusia website clone to strengthen front-end development and design skills.</p>
+                            <a href="https://muqadescodes.com/Dr-Lusia" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
+                <!-- 4 -->
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image box2" style="visibility: visible; animation-delay: .2s;">
@@ -638,13 +642,14 @@
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="project-content box1" style="visibility: visible; animation-delay: .2s;">
-                            <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Brand Identity and Motion Design</a></h2>
-                            <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <span class="sub-title">Website Design</span>
+                            <h2><a href="https://muqadescodes.com/Dr-Meenal">Dr. Meenal Patel Website Clone</a></h2>
+                            <p>A modern clone of the Dr. Meenal Patel website emphasizing simplicity, responsiveness, and user-friendly interface.</p>
+                            <a href="https://muqadescodes.com/Dr-Meenal" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
+                <!-- 5 -->
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image box2" style="visibility: visible; animation-delay: .2s;">
@@ -653,13 +658,14 @@
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
                         <div class="project-content box1" style="visibility: visible; animation-delay: .2s;">
-                            <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Mobile Application Development</a></h2>
-                            <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <span class="sub-title">Website Design</span>
+                            <h2><a href="https://muqadescodes.com/Russel-street">Russel Street Website Clone</a></h2>
+                            <p>Built a responsive clone of the Russel Street website to enhance front-end development and styling expertise.</p>
+                            <a href="https://muqadescodes.com/Russel-street" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
+                <!-- 6 -->
                  <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image box2" style="visibility: visible; animation-delay: .2s;">
@@ -668,10 +674,10 @@
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="project-content box1" style="visibility: visible; animation-delay: .2s;">
-                            <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Brand Identity and Motion Design</a></h2>
-                            <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <span class="sub-title">Website Design</span>
+                            <h2><a href="https://muqadescodes.com/Kingtondental">Kingtondental Website Clone</a></h2>
+                            <p>Crafted a responsive clone of the Kington Dental website with a focus on clean structure and patient-friendly interface.</p>
+                            <a href="https://muqadescodes.com/Kingtondental" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -708,7 +714,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="contact-form contact-form-wrap form-style-one box" style="visibility: visible; animation-delay: .4s;">
-                            <form id="contactForm" class="contactForm" name="contactForm">
+                            <form id="contactForm" class="contactForm" name="contactForm" action="send_email.php" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -758,6 +764,7 @@
                                     </div>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
